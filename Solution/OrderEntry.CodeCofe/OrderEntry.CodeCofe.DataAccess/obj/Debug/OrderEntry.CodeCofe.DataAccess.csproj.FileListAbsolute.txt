@@ -1,0 +1,4 @@
+D:\Training\Proyect\OrderEntry.CodeCofe\OrderEntry.CodeCofe.DataAccess\bin\Debug\OrderEntry.CodeCofe.DataAccess.dll
+D:\Training\Proyect\OrderEntry.CodeCofe\OrderEntry.CodeCofe.DataAccess\bin\Debug\OrderEntry.CodeCofe.DataAccess.pdb
+D:\Training\Proyect\OrderEntry.CodeCofe\OrderEntry.CodeCofe.DataAccess\obj\Debug\OrderEntry.CodeCofe.DataAccess.dll
+D:\Training\Proyect\OrderEntry.CodeCofe\OrderEntry.CodeCofe.DataAccess\obj\Debug\OrderEntry.CodeCofe.DataAccess.pdb

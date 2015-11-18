@@ -1,0 +1,39 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Orders</title>
+    <link rel="stylesheet" href="@Url.Content("~/Content/jquery-ui.css")" />
+    <script src="@Url.Content("~/Scripts/jquery-1.10.2.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/jquery-ui.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/Function/Orders.js")" type="text/javascript"></script>
+    
+</head>
+<body>
+    <div style="padding:20px;">
+        <h1>Orders</h1>
+       
+        <div id="dvFilter">
+            Fecha:
+            <input type="text" id="dtDate" />
+        </div>
+        <div id="dvAction">
+            <br />
+            <input type="button" onclick="FindOrder();" value="Find by Date" />&nbsp;&nbsp;
+            <input type="button" onclick="ShowAllOrder();" value="Show All" />
+            <br />
+            <br />
+            <input type="button" onclick="RedirectOrder(0);" value="Create New Order" />
+            <br />
+            <br />
+        </div>
+
+        <div id="gdOrders"></div>
+    </div>
+</body>
+</html>

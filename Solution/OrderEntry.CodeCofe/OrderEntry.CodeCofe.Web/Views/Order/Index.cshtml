@@ -1,0 +1,73 @@
+﻿@model OrderEntry.CodeCofe.Web.Models.OrderModels
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Order</title>
+    <link rel="stylesheet" href="@Url.Content("~/Content/jquery-ui.css")">
+    <script src="@Url.Content("~/Scripts/jquery-1.10.2.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/jquery-ui.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/Function/Order.js")" type="text/javascript"></script>   
+</head>
+<body>
+    <div class="form-horizontal" style="padding:20px;">
+        <h1>Order</h1>
+     
+        <div class="form-group">
+            @Html.LabelFor(model => model.ID, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.ID, new { @readonly = true })
+            </div>
+        </div>
+        <br />
+        <div class="form-group">
+            @Html.LabelFor(model => model.OrderNumber, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.OrderNumber)               
+            </div>
+        </div>
+        <br />
+        <div class="form-group">
+            @Html.LabelFor(model => model.CustomerName, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.CustomerName)              
+            </div>
+        </div>
+        <br />
+        <div class="form-group">
+            @Html.LabelFor(model => model.DeliveryAddress, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.DeliveryAddress)             
+            </div>
+        </div>
+        <br />
+        <div class="form-group">
+            @Html.LabelFor(model => model.OrderDate, new { @class = "control-label col-md-2"})
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.OrderDate)               
+            </div>
+        </div>
+        <br />
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Save Order" onclick="SaveOrder();" class="btn btn-default" />&nbsp;&nbsp;
+                <input type="submit" id="lnkReturnOrder" value="Back to Orders" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <br />
+        <div id="dialog" title="Save the change!">
+            <p>You have unsaved changes to this order. Click “Save Order” if you wish to save the changes or click “Back to Orders” if you changed your mind.</p>
+        </div>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,7 @@
+D:\Training\Proyect\OrderEntry.CodeCofe\OrderEntry.CodeCofe.Business.SQL\bin\Debug\OrderEntry.CodeCofe.Business.SQL.dll
+D:\Training\Proyect\OrderEntry.CodeCofe\OrderEntry.CodeCofe.Business.SQL\bin\Debug\OrderEntry.CodeCofe.Business.SQL.pdb
+D:\Training\Proyect\OrderEntry.CodeCofe\OrderEntry.CodeCofe.Business.SQL\obj\Debug\OrderEntry.CodeCofe.Business.SQL.csprojResolveAssemblyReference.cache
+D:\Training\Proyect\OrderEntry.CodeCofe\OrderEntry.CodeCofe.Business.SQL\obj\Debug\OrderEntry.CodeCofe.Business.SQL.dll
+D:\Training\Proyect\OrderEntry.CodeCofe\OrderEntry.CodeCofe.Business.SQL\obj\Debug\OrderEntry.CodeCofe.Business.SQL.pdb
+D:\Training\Proyect\OrderEntry.CodeCofe\OrderEntry.CodeCofe.Business.SQL\bin\Debug\OrderEntry.CodeCofe.DataAccess.dll
+D:\Training\Proyect\OrderEntry.CodeCofe\OrderEntry.CodeCofe.Business.SQL\bin\Debug\OrderEntry.CodeCofe.DataAccess.pdb
